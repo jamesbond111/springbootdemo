@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -32,6 +33,7 @@ public class HelloController {
     //模拟Rest风格
     @ResponseBody
     @RequestMapping("/hello/{id}")
+    @PreAuthorize("hasAuthority('p2')")
     public Person hello(@PathVariable("id") Integer id){
         logger.trace("processing request");
         return personMapper.getPersonById(id);

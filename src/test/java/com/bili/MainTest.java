@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.sql.DataSource;
@@ -27,5 +28,9 @@ public class MainTest {
         System.out.println(dataSource.getClass());
         Connection connection = dataSource.getConnection();
         System.out.println(connection);
+
+        String hashpw = BCrypt.hashpw("123", BCrypt.gensalt());
+        boolean isMatch = BCrypt.checkpw("123", "$2a$10$6mpClLb3N04NfM7YwDZY4uVVXQRpbAo9PUaAku8erbQu7nN4sqgLS");
+
     }
 }
