@@ -21,7 +21,7 @@ public class Main {
 //        PersonMapper mapper = sqlSession.getMapper(PersonMapper.class);
 //        Person person = mapper.getPersonById(1);
 //        System.out.println(person);
-//        sqlSession.clearCache();
+//        sqlSession.clearCache(); //
 //        sqlSession.close();  // // //
         ProcessEngineConfiguration configuration = ProcessEngineConfiguration
                 .createStandaloneInMemProcessEngineConfiguration();
