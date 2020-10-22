@@ -22,7 +22,7 @@ public class Main {
 //        Person person = mapper.getPersonById(1);
 //        System.out.println(person);
 //        sqlSession.clearCache();
-//        sqlSession.close(); // // // //
+//        sqlSession.close();
         ProcessEngineConfiguration configuration = ProcessEngineConfiguration
                 .createStandaloneInMemProcessEngineConfiguration();
         configuration.setJdbcUrl("jdbc:mysql://localhost:3306/activity");
