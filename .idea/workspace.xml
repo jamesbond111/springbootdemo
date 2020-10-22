@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3192b8c1-599c-4769-a3ce-f1068d0b4fb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bili/ActivityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bili/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bili/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bili/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bili/test/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +220,7 @@
       <workItem from="1590197765124" duration="63000" />
       <workItem from="1599864908748" duration="13392000" />
       <workItem from="1600180717633" duration="71000" />
-      <workItem from="1603407442249" duration="822000" />
+      <workItem from="1603407442249" duration="1173000" />
     </task>
     <servers />
   </component>
